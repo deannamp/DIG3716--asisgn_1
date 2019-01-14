@@ -1,0 +1,218 @@
+
+@import "reset.css";
+
+
+
+ /*main*/
+ .main{
+   width:944px;
+   height:1112px;
+   border-style: solid;
+   border-width: 7px;
+   border-color: grey;
+   border-radius: 15px;
+   margin: 24px auto;
+   background-color: white;
+}
+body{
+   font-family: sans-serif;
+   background-image:url("../img/flowertrail.png");
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.stuff{
+  background-image: url("../img/colbg.png");
+}
+
+/*header*/
+header h1{
+  font-size:30px;
+  font-weight:bold;
+  color:#411576;
+  float: left;
+  text-shadow: 2px 2px grey;
+  margin-top:20px;
+  margin-left:14px;
+  margin-bottom:16px;
+}
+header h2{
+  font-size: 14px;
+  font-style:italic;
+  font-weight: bold;
+  color:grey;
+  float: right;
+  margin-top:35px;
+  margin-right:10px;
+  margin-bottom:23px;
+}
+.together{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#headimg{
+height:auto;
+width: 943px;
+display: block;
+padding-left:0px;
+padding-right:0px;
+}
+
+/*nav*/
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #411576;
+    height:48px;
+}
+
+header li{
+    float: left;
+}
+
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right:25px;
+    padding-top:18px;
+    padding-bottom:16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:bold;
+    margin-left: 40px;
+}
+
+/*content*/
+
+.left{
+  width:240px;
+  float:left;
+}
+.left h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:35px;
+  margin-left:17px;
+  text-shadow: 1px 1px grey;
+}
+.left ul {
+  list-style-type: square;
+  color:#bbbbbb;
+  margin-left:30px;
+  margin-top:14px;
+  margin-bottom:25px;
+}
+.left li{
+  margin-bottom:4px;
+}
+#burpee{
+  margin-left:20px;
+  margin-top:23px;
+
+}
+
+/*right*/
+.right {
+  width: 704px;
+  float:right;
+}
+.right h1 {
+  font-size:25px;
+  color:#411576;
+  font-weight:bold;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  margin-left: 25px;
+
+}
+.lavandula{
+  margin-left: 25px;
+  margin-top: 35px;
+}
+strong{
+font-weight:bold;
+}
+#lavender{
+  float: left;
+  margin-right: 30px;
+  margin-bottom:17px;
+  margin-left: 25px;
+  box-shadow:2px 2px #b0b0b0;
+}
+#rose{
+  float:right;
+  height:110px;
+  width:151px;
+  margin-left:17px;
+  margin-bottom:12px;
+  box-shadow:2px 2px #b0b0b0;
+
+}
+.roses{
+  margin-top:35px;
+  margin-left: 25px;
+  margin-bottom:23px;
+  margin-right:25px;
+
+}
+
+.stuff {
+  background-image: url("../img/colbg.png");
+}
+
+/*bottom*/
+footer{
+  background-color: #411576;
+  height: 132px;
+  display: block;
+  border-radius: 8px;
+  margin-top:10px;
+}
+footer h1{
+  font-size:14px;
+  color:white;
+  font-weight: bold;
+  display:block;
+}
+footer a{
+  color:#c1bec5;;
+  font-size:10px;
+
+}
+footer ul{
+margin-top:14px;
+}
+footer p{
+  color:white;
+  font-size:10px;
+  margin-top:10px;
+}
+.friends{
+  padding-left:20px;
+  padding-top:22px;
+  padding-bottom:34px;
+}
+.awesome{
+  padding-left:245px;
+  padding-bottom:34px;
+  margin-top:-110px;
+}
+.cool{
+  padding-left: 478px;
+  padding-bottom:34px;
+  margin-top:-110px;
+}
+.copy{
+
+  padding-left:707px;
+  padding-bottom:34px;
+  margin-top:-110px;
+}
